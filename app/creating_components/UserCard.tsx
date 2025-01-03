@@ -24,7 +24,7 @@ const UserCard: React.FC <UserCardProps> = ({user}) => {
             </CardContent>
             <div className="flex justify-end p-6">
                 <Button variant='default' asChild>
-                <a className="bg-gray-700 text-teal-500 hover:bg-gray-600 transition duration-200 p-2 rounded 
+                <a className="bg-gray-800 text-teal-500 hover:bg-gray-700 transition duration-200 p-2 rounded 
                 outline-none focus:ring-0" href={`/user/${user.id}`}> More Details</a>
                 </Button>
             </div>
